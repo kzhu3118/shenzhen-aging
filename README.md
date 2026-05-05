@@ -40,15 +40,7 @@ git clone https://github.com/kzhu3118/shenzhen-aging.git
 cd shenzhen-aging
 ```
 
-### 2. Download data
-
-Download the `data/` directory from Zenodo and place it in the project root:
-
-[![DOI](https://zenodo.org/badge/DOI/YOUR_DOI_HERE.svg)](https://doi.org/YOUR_DOI_HERE)
-
-After downloading, extract so that `data/raw/` sits at the project root level.
-
-### 3. Create environment
+### 2. Create environment
 
 ```bash
 # Option 1: Conda (recommended)
@@ -59,9 +51,10 @@ conda activate shenzhen-aging
 pip install -r requirements.txt
 ```
 
-### 4. Run notebooks
+### 3. Run notebooks
 
-Execute notebooks in numerical order (01 → 06). Each notebook reads from `data/raw/` or `data/processed/` and writes outputs to `data/processed/` or `data/output/`.
+Execute notebooks in numerical order (01 → 06).
+
 
 ## Data Sources
 
